@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-image: url("/img/bg.jpg");
+  background-attachment: fixed;
+  background-position: initial;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", serif;
+  font-weight: bolder;
+  margin: auto;
+}
+
+.inner {
+  position: relative;
+  float: right;
+}
+.done {
+  text-decoration: line-through;
+}
+.fa-github-square {
+  color: aliceblue;
+  size: 5em;
+}
+.fa-github-square {
+  color: aliceblue;
+  size: 5em;
+}
