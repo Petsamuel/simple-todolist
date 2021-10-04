@@ -22,53 +22,48 @@
     <link rel="stylesheet" href="/style/css/mdb-pro.css" />
     <link rel="stylesheet" href="/style/css/style.css" />
   </head>
-  <body>
-    <div class="container py-5">
-      <div class="p-5 py-5 bg-light">
-        <h1 class="my-4 text-center display-6" style="font-family: Sofia">
-          Todo list
-        </h1>
-        <small>
-          <p id="message"></p>
-        </small>
-        <div class="input-group">
-          <input
-            type="text"
-            class="form-control col-6"
-            placeholder="Enter items"
-            id="input"
-          />
-          <span class="input-group-btn">
-            <button type="button" class="btn btn-default btn-sm" id="add">
-              Add!
-            </button>
-          </span>
-        </div>
-
-        <hr class="my-2" />
-        <ul class="list-group">
-          <li class="list-group-item">
-            SAMPLE 1
-            <span class="btn btn-success btn-sm inner tick" id="tick">done</span
-            ><span class="btn btn-danger btn-sm inner"> delete</span>
-          </li>
-
-          <li class="list-group-item">
-            SAMPLE 2
-            <span class="btn btn-success btn-sm inner">done</span
-            ><span class="btn btn-danger btn-sm inner"> delete</span>
-          </li>
-        </ul>
+  <body  id="particles-js">
+  <div class="container py-5">
+    <div class="p-5 py-5 bg-light">
+      <h1 class="my-4 text-center display-6" style="font-family: Sofia">
+        Todo list
+      </h1>
+      <small>
+        <p id="message"></p>
+      </small>
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control col-6"
+          placeholder="Enter items"
+          id="input"
+        />
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-sm" id="add">
+            Add!
+          </button>
+        </span>
       </div>
-    </div>
 
-    <p class="text-center navbar-text pull-right fixed-bottom bg-dark">
-      <a href="https://github.com/PhetSirmhuel?" class="navbar-link"
-        >©All Right Reserved <br />
-        Developed By Bieefilled</a
-      >
-    </p>
-  </body>
+      <hr class="my-2" />
+      <ul class="list-group">
+        <li class="list-group-item">
+          SAMPLE 1
+          <span class="btn btn-success btn-sm inner tick" id="tick">done</span
+          ><span class="btn btn-danger btn-sm inner"> delete</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class=" navbar-text static-bottom">
+    <a href="https://github.com/PhetSirmhuel?" class="text-center navbar-link"
+      >©Demo Right Reserved <br />
+      Developed By Bieefilled</a
+    >
+  </div>
+
+  <!-- stats - count particles -->
 
   <!-- jQuery -->
   <script src="/style/js/jquery-3.4.1.min.js"></script>
@@ -77,4 +72,6 @@
   <script src="/style/js/bootstrap.js"></script>
   <script src="/style/js/mdb.js"></script>
   <script src="/style/js/app.js"></script>
+  <script src="/style/main.js"></script>
+  <script src="/style/js/particles.js"></script>
 </html>
