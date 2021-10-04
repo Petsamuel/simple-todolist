@@ -46,6 +46,5 @@ input.addEventListener("keypress", () => {
 });
 
 function line() {
-  console.log("clicked");
+  line.parentNode.remove();
 }
-tick.addEventListener("click", line);
