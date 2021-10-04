@@ -5,7 +5,9 @@ body {
   font-weight: bolder;
   margin: auto;
 }
-
+#particles-js {
+  height: 100%;
+}
 #particles-js {
   width: 100%;
   height: 100%;
