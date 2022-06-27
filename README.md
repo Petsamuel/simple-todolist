@@ -1,2 +1,2 @@
 ﻿# simple-todolist
-bieedo.netlify.app
+- https://bieedo.netlify.app
